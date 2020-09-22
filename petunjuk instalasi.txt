@@ -1,0 +1,15 @@
+1. Extrak simita.zip yang sudah di download
+2. Copy folder project tersebut ke xampp->htdocs atau di folder public server anda
+3. Buat database di mysql dengan nama database default db_simita
+4. Import file db_simita.sql yang ada di folder simita ke dalam database yang telah dibuat
+5. Buka dan edit file di folder application-> config -> database.php
+    'hostname' => 'localhost',
+	
+    'username' => 'root',
+	
+    'password' => '',
+	
+    'database' => 'db_simita',
+6. sesuaikan username dan password dengan database anda
+7. dafault user dan password level administrator : administrator
+    
